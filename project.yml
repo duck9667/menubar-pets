@@ -1,0 +1,186 @@
+name: MenubarPets
+options:
+  bundleIdPrefix: com.jakekwak.menubarpets
+  deploymentTarget:
+    macOS: "14.0"
+targets:
+  BearWalker:
+    type: application
+    platform: macOS
+    sources:
+      - Shared
+      - Apps/BearWalker
+    info:
+      path: Apps/BearWalker/Info.plist
+      properties:
+        CFBundleName: 곰 산책러
+        CFBundleDisplayName: 곰 산책러
+        LSUIElement: true
+        NSHumanReadableCopyright: jake
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jakekwak.menubarpets.bearwalker
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: SXH247VWQA
+        SWIFT_VERSION: "5"
+        GENERATE_INFOPLIST_FILE: false
+  BatteryPlant:
+    type: application
+    platform: macOS
+    sources:
+      - Shared
+      - Apps/BatteryPlant
+    info:
+      path: Apps/BatteryPlant/Info.plist
+      properties:
+        CFBundleName: 배터리 식물
+        CFBundleDisplayName: 배터리 식물
+        LSUIElement: true
+        NSHumanReadableCopyright: jake
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jakekwak.menubarpets.batteryplant
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: SXH247VWQA
+        SWIFT_VERSION: "5"
+        GENERATE_INFOPLIST_FILE: false
+  TypingPulse:
+    type: application
+    platform: macOS
+    sources:
+      - Shared
+      - Apps/TypingPulse
+    info:
+      path: Apps/TypingPulse/Info.plist
+      properties:
+        CFBundleName: 키보드 심박계
+        CFBundleDisplayName: 키보드 심박계
+        LSUIElement: true
+        NSHumanReadableCopyright: jake
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jakekwak.menubarpets.typingpulse
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: SXH247VWQA
+        SWIFT_VERSION: "5"
+        GENERATE_INFOPLIST_FILE: false
+  WeatherWindow:
+    type: application
+    platform: macOS
+    sources:
+      - Shared
+      - Apps/WeatherWindow
+    info:
+      path: Apps/WeatherWindow/Info.plist
+      properties:
+        CFBundleName: 날씨 창문
+        CFBundleDisplayName: 날씨 창문
+        LSUIElement: true
+        NSHumanReadableCopyright: jake
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jakekwak.menubarpets.weatherwindow
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: SXH247VWQA
+        SWIFT_VERSION: "5"
+        GENERATE_INFOPLIST_FILE: false
+  WaterTank:
+    type: application
+    platform: macOS
+    sources:
+      - Shared
+      - Apps/WaterTank
+    info:
+      path: Apps/WaterTank/Info.plist
+      properties:
+        CFBundleName: 물 어항
+        CFBundleDisplayName: 물 어항
+        LSUIElement: true
+        NSHumanReadableCopyright: jake
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jakekwak.menubarpets.watertank
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: SXH247VWQA
+        SWIFT_VERSION: "5"
+        GENERATE_INFOPLIST_FILE: false
+  PostureTurtle:
+    type: application
+    platform: macOS
+    sources:
+      - Shared
+      - Apps/PostureTurtle
+    info:
+      path: Apps/PostureTurtle/Info.plist
+      properties:
+        CFBundleName: 자세 거북이
+        CFBundleDisplayName: 자세 거북이
+        LSUIElement: true
+        NSHumanReadableCopyright: jake
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jakekwak.menubarpets.postureturtle
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: SXH247VWQA
+        SWIFT_VERSION: "5"
+        GENERATE_INFOPLIST_FILE: false
+  WorkdaySun:
+    type: application
+    platform: macOS
+    sources:
+      - Shared
+      - Apps/WorkdaySun
+    info:
+      path: Apps/WorkdaySun/Info.plist
+      properties:
+        CFBundleName: 퇴근 해
+        CFBundleDisplayName: 퇴근 해
+        LSUIElement: true
+        NSHumanReadableCopyright: jake
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jakekwak.menubarpets.workdaysun
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: SXH247VWQA
+        SWIFT_VERSION: "5"
+        GENERATE_INFOPLIST_FILE: false
+  FamilyBar:
+    type: application
+    platform: macOS
+    sources:
+      - Shared
+      - Apps/FamilyBar
+    info:
+      path: Apps/FamilyBar/Info.plist
+      properties:
+        CFBundleName: 가족 메뉴바
+        CFBundleDisplayName: 가족 메뉴바
+        LSUIElement: true
+        NSHumanReadableCopyright: jake
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jakekwak.menubarpets.familybar
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: SXH247VWQA
+        SWIFT_VERSION: "5"
+        GENERATE_INFOPLIST_FILE: false
+  SharedPet:
+    type: application
+    platform: macOS
+    sources:
+      - Shared
+      - Apps/SharedPet
+    info:
+      path: Apps/SharedPet/Info.plist
+      properties:
+        CFBundleName: 공유 펫
+        CFBundleDisplayName: 공유 펫
+        LSUIElement: true
+        NSHumanReadableCopyright: jake
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jakekwak.menubarpets.sharedpet
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: SXH247VWQA
+        SWIFT_VERSION: "5"
+        GENERATE_INFOPLIST_FILE: false
