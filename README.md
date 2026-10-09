@@ -5,17 +5,19 @@
 
 ## 앱 목록
 
-| 타겟 | 이름 | 하는 일 |
-|---|---|---|
-| BearWalker | 곰 산책러 | 뽀모도로(25/50분) 타이머. 곰 걷는 속도 = 오늘 집중 시간. 세션 끝나면 간식 + 알림 |
-| BatteryPlant | 배터리 식물 | 배터리 잔량이 식물 5단계로. 충전 중이면 자라고 20% 아래면 시듦 |
-| TypingPulse | 키보드 심박계 | 최근 10초 타자 속도(WPM)에 따라 토끼가 달림. 손쉬운 사용 권한 필요 |
-| WeatherWindow | 날씨 창문 | 창 밖 풍경이 지금 날씨·시간대(맑음/흐림/비/눈/뇌우, 낮/노을/밤)로 바뀜. Open-Meteo, 키 불필요 |
-| WaterTank | 물 어항 | 왼쪽 클릭 = 물 한 잔. 2시간 안 마시면 물이 탁해지고 물고기가 흐려짐 |
-| PostureTurtle | 자세 거북이 | N분(25/45/60/90)마다 거북이가 목을 빼고 쳐다봄. 클릭하면 "허리 폈어요" 기록 |
-| WorkdaySun | 퇴근 해 | 출근~퇴근 사이 해가 떠서 짐. 퇴근 시각 지나면 달이 뜨고 +야근 시간 표시 |
-| FamilyBar | 가족 메뉴바 | 사진 폴더에서 하루 한 장 동그란 아이콘으로. 기념일 D-30부터 표시 |
-| SharedPet | 공유 펫 | 둘이 같은 햄스터를 키움. iCloud Drive 등 공유 폴더의 `pet.json`을 양쪽이 감시해 동기화 |
+| 메뉴바 | 타겟 | 이름 | 하는 일 |
+|---|---|---|---|
+| <img src="docs/screenshots/BearWalker.png" height="26" alt="곰 산책러"> | BearWalker | 곰 산책러 | 뽀모도로(25/50분) 타이머. 곰 걷는 속도 = 오늘 집중 시간. 세션 끝나면 간식 + 알림 |
+| <img src="docs/screenshots/BatteryPlant.png" height="26" alt="배터리 식물"> | BatteryPlant | 배터리 식물 | 배터리 잔량이 식물 5단계로. 충전 중이면 자라고 20% 아래면 시듦 |
+| <img src="docs/screenshots/TypingPulse.png" height="26" alt="키보드 심박계"> | TypingPulse | 키보드 심박계 | 최근 10초 타자 속도(WPM)에 따라 토끼가 달림. 손쉬운 사용 권한 필요 |
+| <img src="docs/screenshots/WeatherWindow.png" height="26" alt="날씨 창문"> | WeatherWindow | 날씨 창문 | 창 밖 풍경이 지금 날씨·시간대(맑음/흐림/비/눈/뇌우, 낮/노을/밤)로 바뀜. Open-Meteo, 키 불필요 |
+| <img src="docs/screenshots/WaterTank.png" height="26" alt="물 어항"> | WaterTank | 물 어항 | 왼쪽 클릭 = 물 한 잔. 2시간 안 마시면 물이 탁해지고 물고기가 흐려짐 |
+| <img src="docs/screenshots/PostureTurtle.png" height="26" alt="자세 거북이"> | PostureTurtle | 자세 거북이 | N분(25/45/60/90)마다 거북이가 목을 빼고 쳐다봄. 클릭하면 "허리 폈어요" 기록 |
+| <img src="docs/screenshots/WorkdaySun.png" height="26" alt="퇴근 해"> | WorkdaySun | 퇴근 해 | 출근~퇴근 사이 해가 떠서 짐. 퇴근 시각 지나면 달이 뜨고 +야근 시간 표시 |
+| <img src="docs/screenshots/FamilyBar.png" height="26" alt="가족 메뉴바"> | FamilyBar | 가족 메뉴바 | 사진 폴더에서 하루 한 장 동그란 아이콘으로. 기념일 D-30부터 표시 |
+| <img src="docs/screenshots/SharedPet.png" height="26" alt="공유 펫"> | SharedPet | 공유 펫 | 둘이 같은 햄스터를 키움. iCloud Drive 등 공유 폴더의 `pet.json`을 양쪽이 감시해 동기화 |
+
+스크린샷은 `python3 tools/shoot.py`로 재생성 (각 앱을 하나씩 띄워 메뉴바에서 잘라냄).
 
 ## 빌드
 
